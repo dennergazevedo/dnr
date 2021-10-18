@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Header';
-import Resume from '../Resume';
 import Footer from '../Footer'
+import ScrollArrow from '../ScrollArrow';
+import Resume from '../Resume';
+import About from '../About';
 import { Container  } from './styles';
 import { IDevice } from './types';
 
@@ -19,6 +21,9 @@ const Main: React.FC = () => {
     <Container>
       <Header device={device}/>
       <Resume/>
+      <ScrollArrow />
+      <About />
+      <ScrollArrow />
       { device === 'desktop' && <Footer/> }
     </Container>
   );

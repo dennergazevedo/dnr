@@ -5,5 +5,4 @@ export const Container = styled.main`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100vh;
 `;

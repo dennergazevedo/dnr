@@ -7,8 +7,8 @@ const Resume: React.FC = () => {
   return (
     <Container>
       <h3>Hey you <FaRegHandScissors className="icon" />, I'm</h3>
-      <h1>Denner Azevedo.</h1>
-      <h2>Javascript enthusiast.</h2>
+      <h1>Denner Azevedo</h1>
+      <h2 className="glitch" data-text="Javascript enthusiast">Javascript enthusiast</h2>
       <p>
         I'm a web developer and currently I work developing e-commerce, 
         building and supporting frontends, apps, integrations and so on. 
