@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { Container, TitleContainer, Left, Right, Paragraph, TechContainer, Tech, ImageContainer } from './styles';
+import { Left, Right, Paragraph, TechContainer, Tech, ImageContainer } from './styles';
+import { Container, TitleContainer } from '../Common/styles';
 import { BiRightArrow } from 'react-icons/bi';
 import Image from 'next/image';
 import Me from './me.jpeg';
@@ -11,7 +12,7 @@ const Resume: React.FC = () => {
       <Left>
         <TitleContainer>
           <span>01.</span>
-          <h3>About me</h3>
+          <h3>Sobre mim</h3>
           <div className="separator"/>
         </TitleContainer>
         <Paragraph>

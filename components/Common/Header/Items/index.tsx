@@ -6,19 +6,19 @@ const Items: React.FC = () => {
     <>
       <Item>
         <span className='number'>01.</span>
-        <a href="#">About</a>
+        <a href="#">Sobre</a>
       </Item>
       <Item>
         <span className='number'>02.</span>
-        <a href="#">Experience</a>
+        <a href="#">Experiências</a>
       </Item>
       <Item>
         <span className='number'>03.</span>
-        <a href="#">Tecnology</a>
+        <a href="#">Tecnologias</a>
       </Item>
       <Item>
         <span className='number'>04.</span>
-        <a href="#">Contact</a>
+        <a href="#">Contato</a>
       </Item>
     </>
   );
