@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.a`
+  cursor: pointer;
+  z-index: 1;
+  margin-bottom: 64px;
+
   @keyframes bounce-down {
     0% { opacity: 0; transform: translateY(-20px); }
     50% { opacity: 1; transform: translateY(0); }

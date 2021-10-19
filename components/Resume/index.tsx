@@ -5,14 +5,13 @@ import { Container } from './styles';
 
 const Resume: React.FC = () => {
   return (
-    <Container>
-      <h3>Hey you <FaRegHandScissors className="icon" />, I'm</h3>
+    <Container id="resume">
+      <h3>Hello world! <FaRegHandScissors className="icon" /></h3>
       <h1>Denner Azevedo</h1>
       <h2 className="glitch" data-text="Javascript enthusiast">Javascript enthusiast</h2>
       <p>
-        I'm a web developer and currently I work developing e-commerce, 
-        building and supporting frontends, apps, integrations and so on. 
-        I’m currently focus on studying ReactJS, ReactNative and NodeJs.
+        Sou Desenvolvedor Web especializado na stack Javascript com ReactJS, NodeJS e React Native,
+        atualmente trabalho com construção e suporte de e-commerces e apps.
       </p>
     </Container>
   );

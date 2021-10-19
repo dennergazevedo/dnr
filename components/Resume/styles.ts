@@ -47,7 +47,7 @@ export const Container = styled.header`
     margin-bottom: 8px;
 
     @media (min-width: 1024px){
-      font-size: 4rem;
+      font-size: 2rem;
     }
   }
 

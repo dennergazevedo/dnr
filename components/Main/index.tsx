@@ -21,9 +21,9 @@ const Main: React.FC = () => {
     <Container>
       <Header device={device}/>
       <Resume/>
-      <ScrollArrow />
+      <ScrollArrow ancora="about"/>
       <About />
-      <ScrollArrow />
+      <ScrollArrow ancora="about"/>
       { device === 'desktop' && <Footer/> }
     </Container>
   );

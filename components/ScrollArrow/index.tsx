@@ -2,9 +2,13 @@ import React from 'react';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { Container } from './styles';
 
-const ScrollArrow: React.FC = () => {
+interface IProps{
+  ancora: string;
+}
+
+const ScrollArrow: React.FC<IProps> = ({ancora}: IProps) => {
   return (
-    <Container>
+    <Container href={`#${ancora}`}>
       <MdKeyboardArrowDown className="icon" size={120} />
     </Container>
   );

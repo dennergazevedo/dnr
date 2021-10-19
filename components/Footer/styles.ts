@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
+export const Container = styled.footer`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,6 +10,7 @@ export const Container = styled.header`
   padding: 0px 64px;
   position: fixed;
   bottom: 0;
+  z-index: 0;
 `;
 
 export const Left = styled.section`
