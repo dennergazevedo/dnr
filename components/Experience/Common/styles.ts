@@ -7,9 +7,11 @@ export const Container = styled(motion.div)`
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
+  max-width: 90vw;
   overflow-y: scroll;
   transition: 2s all;
   opacity: 0;
+  margin:0;
   margin-top: 16px;
 
   @media (min-width: 1024px){

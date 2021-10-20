@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  opacity: 0.5;
 
   .box div {
     position: absolute;

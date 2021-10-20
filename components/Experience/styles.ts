@@ -11,19 +11,29 @@ export const Container = styled.section`
   align-items: center;
   font-family: Ubuntu;
   color: #ddd;
-  height: 78vh;
-  margin: 0 auto;
+  min-height: 78vh;
   cursor: default;
-  padding: 20px;
+  padding: 16px;
+  padding-top: 124px;
+
+  @media (min-width: 1024px){
+    height: 78vh;
+  }
 `;
 
 export const TabContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
   margin-top: 32px;
+
+  @media (min-width: 1024px){
+    justify-content: space-between;
+    margin-top: 64px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 `;
 
 export const Tab = styled.div<ITab>`
@@ -36,7 +46,7 @@ export const Tab = styled.div<ITab>`
   transition: 0.2s all;
   font-size: 14px;
   color: ${props => props.menu? "#2ec5ea": "#aaa"};
-  border-left: ${props => props.menu? '2px solid #2ec5ea': '2px solid rgb(46, 197, 234, 0.2)'};
+  border-left: ${props => props.menu? '2px solid #ddd': '2px solid #aaa2'};
   margin-left: 8px;
 
   @media (min-width: 1024px){
@@ -68,10 +78,11 @@ export const Right = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 400px;
-  width: 100%;
+  height: auto;
+  max-width: 90vw;
 
   @media (min-width: 1024px){
     width: auto;
+    height: 400px;
   }
 `;

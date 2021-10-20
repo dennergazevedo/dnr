@@ -34,43 +34,43 @@ const Resume: React.FC = () => {
         </Paragraph>
         <TechContainer>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>JavaScript (ES6+)</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>TypeScript</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>ReactJS</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>NextJS</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>Gatsby</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>NodeJS</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>JQuery</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>VTEX CMS</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>VTEX IO</span>
           </Tech>
           <Tech>
-            <BiRightArrow className="tech-icon" size={14} />
+            <BiRightArrow className="tech-icon" size={10} />
             <span>Shopify</span>
           </Tech>
         </TechContainer>

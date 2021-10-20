@@ -31,6 +31,7 @@ export const Paragraph = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
+  color: #aaa;
 
   p{
     font-size: 14px;
@@ -66,10 +67,12 @@ export const Tech = styled.div`
   margin-right: 32px;
   margin-top: 8px;
   transition: 0.2s all;
+  color: #aaa;
 
   &:hover{
     transition: 0.2s all;
     transform: translateX(-2px);
+    color: #ddd;
   }
 
   .tech-icon{

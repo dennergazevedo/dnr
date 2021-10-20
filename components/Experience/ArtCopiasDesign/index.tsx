@@ -12,14 +12,14 @@ const ArtCopias: React.FC = () => {
       <Date>Out 2017 - Jul 2019</Date>
       <DescribeContainer>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Desenvolvimento de artes gráficas para identidade visual de lojas como por exemplo logomarcas, placas industriais, 
             placas de identificação, folhetos, panfletos e cartões.
           </span>
         </div>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Atendimento presencial e online de clientes para criação de briefing.
           </span>

@@ -13,11 +13,15 @@ const Main: React.FC = () => {
   const [device, setDevide] = useState<IDevice>('desktop' as IDevice);
 
   useEffect(() => {
-    screen && window.innerWidth > 1024? 
-      setDevide('desktop') 
-      :
-      setDevide('mobile');
+    window.addEventListener('resize', updateWindowDimensions)
   }, [])
+
+  function updateWindowDimensions(){
+    window.innerWidth > 1024? 
+    device !== 'desktop' && setDevide('desktop') 
+    :
+    device !== 'mobile' &&  setDevide('mobile');
+  }
 
   return (
     <Container>

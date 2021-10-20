@@ -12,7 +12,7 @@ const CodeBy: React.FC = () => {
       <Date>Mai 2021 - Jul 2021</Date>
       <DescribeContainer>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Desenvolvimento e manutenção de componentes para projetos de e-commerces 
             usando como ferramenta o ReactJS, NodeJS, HTML5 e CSS3 para construção 
@@ -20,14 +20,14 @@ const CodeBy: React.FC = () => {
           </span>
         </div>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Criação e manutenção de apps plug-in-play usando ReactJS, Typescript e NodeJS para 
             a plataforma VTEX IO.
           </span>
         </div>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Implementação de metodologias ágeis com a ferramenta Monday e participação mais ativa 
             em reuniões com clientes.

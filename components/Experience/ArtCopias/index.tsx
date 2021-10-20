@@ -12,14 +12,14 @@ const ArtCopias: React.FC = () => {
       <Date>Jan 2020 - Jan 2021</Date>
       <DescribeContainer>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Desenvolvimento de sistema de vendas para controle interno dos pedidos usando NodeJS, 
             Typescript e Express para fazer o Backend da aplicação e ReactTS para o frontend.
           </span>
         </div>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Criação de app em ReactNative para controle dos clientes sobre os pedidos realizados no sistema 
             usando o mesmo Backend.

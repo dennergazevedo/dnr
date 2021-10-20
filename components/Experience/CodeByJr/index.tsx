@@ -12,7 +12,7 @@ const CodeBy: React.FC = () => {
       <Date>Fev 2021 - Mai 2021</Date>
       <DescribeContainer>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Desenvolvimento e manutenção de componentes para e-commerces de parceiros 
             usando como ferramenta o JQuery, Javascript, HTML5 e CSS3 para construção 
@@ -20,7 +20,7 @@ const CodeBy: React.FC = () => {
           </span>
         </div>
         <div>
-          <BiRightArrow className="icon" size={12} />
+          <BiRightArrow className="icon" size={10} />
           <span>
             Uso de ferramentas para tornar o trabalho mais ágil como por exemplo Avaza 
             para controle das tarefas e Clockify para controle de tempo.
