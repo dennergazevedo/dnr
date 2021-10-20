@@ -6,23 +6,22 @@ const ArtCopias: React.FC = () => {
   return (
     <Container animate={{ translateX: 20, opacity: 1 }} transition={{duration: 0.1}}>
       <Title>
-        Desenvolvedor Fullstack
+        Designer Gráfico
         <a href="https://www.instagram.com/artcopiasjm/" target="_blank" rel="noreferrer">@ArtCopias</a>
       </Title>
-      <Date>Jan 2020 - Jan 2021</Date>
+      <Date>Out 2017 - Jul 2019</Date>
       <DescribeContainer>
         <div>
           <BiRightArrow className="icon" size={12} />
           <span>
-            Desenvolvimento de sistema de vendas para controle interno dos pedidos usando NodeJS, 
-            Typescript e Express para fazer o Backend da aplicação e ReactTS para o frontend.
+            Desenvolvimento de artes gráficas para identidade visual de lojas como por exemplo logomarcas, placas industriais, 
+            placas de identificação, folhetos, panfletos e cartões.
           </span>
         </div>
         <div>
           <BiRightArrow className="icon" size={12} />
           <span>
-            Criação de app em ReactNative para controle dos clientes sobre os pedidos realizados no sistema 
-            usando o mesmo Backend.
+            Atendimento presencial e online de clientes para criação de briefing.
           </span>
         </div>
       </DescribeContainer>

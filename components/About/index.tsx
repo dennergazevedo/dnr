@@ -47,6 +47,14 @@ const Resume: React.FC = () => {
           </Tech>
           <Tech>
             <BiRightArrow className="tech-icon" size={14} />
+            <span>NextJS</span>
+          </Tech>
+          <Tech>
+            <BiRightArrow className="tech-icon" size={14} />
+            <span>Gatsby</span>
+          </Tech>
+          <Tech>
+            <BiRightArrow className="tech-icon" size={14} />
             <span>NodeJS</span>
           </Tech>
           <Tech>
@@ -71,6 +79,9 @@ const Resume: React.FC = () => {
         <ImageContainer>
           <div className="colorFilter" />
           <Image className="image" src={Me} alt="Denner Azevedo Photo"/>
+          <div className="glow-wrap">
+            <i className="glow"></i>
+          </div>
         </ImageContainer>
       </Right>
     </Container>
