@@ -4,7 +4,7 @@ import { BiRightArrow } from 'react-icons/bi';
 
 const CodeBy: React.FC = () => {
   return (
-    <Container animate={{ translateX: 20, opacity: 1 }} transition={{duration: 0.1}}>
+    <Container animate={{ translateY: 8, opacity: 1 }} transition={{duration: 0.1}}>
       <Title>
         Frontend Developer Júnior
         <a href="https://www.codeby.com.br/" target="_blank" rel="noreferrer">@CodeBy</a>

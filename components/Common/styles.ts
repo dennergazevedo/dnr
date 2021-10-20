@@ -3,14 +3,19 @@ import styled from 'styled-components';
 export const Container = styled.section`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   font-family: Ubuntu;
   color: #ddd;
-  height: 78vh;
+  height: 100%;
   margin: 0 auto;
   cursor: default;
   padding: 20px;
+
+  @media (min-width: 1024px){
+    height: 78vh;
+  }
 `;
 
 export const TitleContainer = styled.div`

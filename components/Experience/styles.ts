@@ -20,6 +20,7 @@ export const Container = styled.section`
 export const TabContainer = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 32px;
@@ -31,11 +32,17 @@ export const Tab = styled.div<ITab>`
   align-items: center;
   padding: 0px 16px;
   height: 42px;
-  width: 160px;
+  width: 150px;
   transition: 0.2s all;
   font-size: 14px;
   color: ${props => props.menu? "#2ec5ea": "#aaa"};
   border-left: ${props => props.menu? '2px solid #2ec5ea': '2px solid rgb(46, 197, 234, 0.2)'};
+  margin-left: 8px;
+
+  @media (min-width: 1024px){
+    margin-left: 0px;
+    width: 160px;
+  }
 
   &:hover{
     cursor: pointer;
@@ -46,9 +53,14 @@ export const Tab = styled.div<ITab>`
 
 export const Left = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
+
+  @media (min-width: 1024px){
+    flex-direction: column;
+  }
 `;
 
 export const Right = styled.div`
@@ -57,4 +69,9 @@ export const Right = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   height: 400px;
+  width: 100%;
+
+  @media (min-width: 1024px){
+    width: auto;
+  }
 `;

@@ -6,12 +6,18 @@ export const Container = styled(motion.div)`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 8px 16px;
-  width: 40vw;
-  max-height: 350px;
+  width: 100%;
   overflow-y: scroll;
   transition: 2s all;
   opacity: 0;
+  margin-top: 16px;
+
+  @media (min-width: 1024px){
+    width: 40vw;
+    padding: 8px 16px;
+    margin-top: 0px;
+    max-height: 350px;
+  }
 
   &::-webkit-scrollbar {
     width: 8px;

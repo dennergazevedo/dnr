@@ -5,16 +5,24 @@ export const Left = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 35vw;
-  min-width: 400px;
+  width: 100%;
+  min-width: 300px;
+
+  @media (min-width: 1024px){
+    width: 35vw;
+    min-width: 400px;
+  }
 `;
 
 export const Right = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 64px;
-  height: 400px;
+  
+  @media (min-width: 1024px){
+    margin-left: 64px;
+    height: 400px;
+  }
 `;
 
 export const Paragraph = styled.div`
@@ -25,8 +33,13 @@ export const Paragraph = styled.div`
   width: 100%;
 
   p{
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 14px;
+    line-height: 1.2rem;
+
+    @media (min-width: 1024px){
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
   }
 `;
 
@@ -36,8 +49,13 @@ export const TechContainer = styled.div`
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 400px;
-  max-height: 148px;
+  width: 100%;
+  max-height: 130px;
+
+  @media (min-width: 1024px){
+    max-height: 148px;
+    width: 400px;
+  }
 `;
 
 export const Tech = styled.div`
@@ -58,19 +76,34 @@ export const Tech = styled.div`
     color: #2ec5ea;
     margin-right: 8px;
   }
+
+  span{
+    font-size: 14px;
+
+    @media (min-width: 1024px){
+      font-size: 1rem;
+    }
+  }
 `;
 
 export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 300px;
   overflow: hidden;
   border-radius: 4px;
   position: relative;
   filter: grayscale(100%);
   transition: 0.2s all;
+  width: 250px;
+  height: 250px;
+  margin-top: 32px;
+
+  @media (min-width: 1024px){
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+  }
 
   .glow-wrap{
     overflow: hidden;

@@ -4,7 +4,7 @@ import { BiRightArrow } from 'react-icons/bi';
 
 const ArtCopias: React.FC = () => {
   return (
-    <Container animate={{ translateX: 20, opacity: 1 }} transition={{duration: 0.1}}>
+    <Container animate={{ translateY: 8, opacity: 1 }} transition={{duration: 0.1}}>
       <Title>
         Desenvolvedor Fullstack
         <a href="https://www.instagram.com/artcopiasjm/" target="_blank" rel="noreferrer">@ArtCopias</a>

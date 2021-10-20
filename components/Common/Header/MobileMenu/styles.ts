@@ -9,6 +9,7 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
   z-index: 1;
+  position: fixed;
 
   .menu-icon{
     z-index: 2;
@@ -21,7 +22,7 @@ export const MenuContainer = styled.section`
   justify-content: flex-end;
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   backdrop-filter: blur(4px);
