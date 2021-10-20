@@ -10,6 +10,10 @@ export const Container = styled.header`
   padding: 0px 32px;
   padding-left: 0px;
   z-index: 2;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(2px);
+  background: #3339;
 
   @media(min-width: 1024px){
     padding: 0px 64px;
@@ -21,7 +25,8 @@ export const Left = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: auto;
+  padding: 8px 0px;
 `;
 
 export const Logo = styled.div`

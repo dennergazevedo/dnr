@@ -9,7 +9,6 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
   z-index: 1;
-  position: fixed;
 
   .menu-icon{
     z-index: 2;
