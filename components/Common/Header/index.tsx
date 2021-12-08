@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Container, Left, Logo, Right } from './styles';
+import React from 'react';
+import { Container } from './styles';
 import MobileMenu from './MobileMenu';
 import Items from './Items';
 
@@ -10,14 +10,7 @@ interface IProps{
 const Header: React.FC<IProps> = ({ device }: IProps) => {
   return (
     <Container>
-      <Left>
-        <Logo>
-          <span>dnr</span>
-        </Logo>
-      </Left>
-      <Right>
-        { device === 'mobile'? <MobileMenu /> : <Items /> }
-      </Right>
+      { device === 'mobile'? <MobileMenu /> : <Items /> }
     </Container>
   );
 }

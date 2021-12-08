@@ -40,7 +40,8 @@ export const Tab = styled.div<ITab>`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px 16px;
+  padding: 0px 12px;
+  padding-left: 0px;
   height: 42px;
   width: 150px;
   transition: 0.2s all;
@@ -48,16 +49,36 @@ export const Tab = styled.div<ITab>`
   color: ${props => props.menu? "#2ec5ea": "#aaa"};
   border-left: ${props => props.menu? '2px solid #ddd': '2px solid #aaa2'};
   margin-left: 8px;
+  
+  .tab-name{
+    margin-left: 16px;
+  }
 
   @media (min-width: 1024px){
     margin-left: 0px;
-    width: 160px;
+    width: 188px;
   }
 
   &:hover{
     cursor: pointer;
     transition: 0.2s all;
     background-color: rgb(46, 197, 234, 0.1);
+    padding-left: 0;
+
+    .tab-icon-container{
+      transition: 0.2s all;
+      width: 42px;
+    }
+  }
+
+  .tab-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    height: 42px;
+    overflow: hidden;
+    transition: 0.2s all;
   }
 `;
 

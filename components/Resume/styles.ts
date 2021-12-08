@@ -7,7 +7,7 @@ export const Container = styled.header`
   align-items: flex-start;
   font-family: Ubuntu;
   color: #ddd;
-  min-height: 70vh;
+  min-height: 80vh;
   margin: 0 auto;
   cursor: default;
   padding: 20px;
@@ -15,6 +15,7 @@ export const Container = styled.header`
   @media (min-width: 1024px){
     padding: 0px;
     max-width: 1024px;
+    min-height: 70vh;
   }
 
   *{
