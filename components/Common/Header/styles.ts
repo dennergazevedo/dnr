@@ -3,71 +3,32 @@ import styled from 'styled-components';
 export const Container = styled.header`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: auto;
-  width: 99vw;
-  padding: 0px 32px;
-  padding-left: 0px;
+  width: auto;
+  padding: 16px;
   z-index: 2;
-  position: sticky;
+  position: fixed;
   top: 0;
-  backdrop-filter: blur(2px);
-  background: #3339;
+  right: 0;
+  
 
   @media(min-width: 1024px){
-    padding: 0px 64px;
-    padding-left: 0px;
-  }
-`;
-
-export const Left = styled.section`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  padding: 8px 0px;
-`;
-
-export const Logo = styled.div`
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4px 16px;
-  padding-left: 64px;
-  cursor: pointer;
-  border-radius: 0px 8px 8px 0px;
-  transition: 0.1s ease-in all;
-  background: #2ec5ea;
-  box-shadow: inset 5px 5px 3px #2ab5d7,
-              inset -5px -5px 3px #32d5fd;
-
-  &:hover{
-    transition: 0.2s ease-in all;
-    padding-left: 72px;
-  }
-
-
-  span{
-    color: #333;
-    font-size: 1.75rem;
-    font-family: Ubuntu;
-    text-shadow: none;
-    font-weight: bold;
-    transition: 0.5s ease-in all;
+    border-radius: 0px 0px 0px 100px;
+    backdrop-filter: blur(2px);
+    background: #0005;
+    padding: 8px 32px;
+    padding-left: 32px;
+    border: 1px solid #ddd7;
+    border-top: 0px;
+    border-right: 0px;
+    position: fixed;
+    transition: 0.5s ease;
 
     &:hover{
-      transition: 0.2s ease-in all;
-      cursor: pointer;
-      text-shadow: 0 0 4px #3335, 0 0 8px #3335, 0 0 24px #21ABCD;
+      transition: 0.2s ease;
+      border-color: #ddd;
+      box-shadow: 4px 4px 4px #ddd2;
     }
   }
-`;
-
-export const Right = styled.section`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 `;

@@ -6,15 +6,15 @@ const Items: React.FC = () => {
     <>
       <Item>
         <span className='number'>01.</span>
-        <a href="#">Sobre</a>
+        <a href="#about">Sobre</a>
       </Item>
       <Item>
         <span className='number'>02.</span>
-        <a href="#">Experiências</a>
+        <a href="#experience">Experiências</a>
       </Item>
       <Item>
         <span className='number'>03.</span>
-        <a href="#">Tecnologias</a>
+        <a href="#technology">Tecnologias</a>
       </Item>
       <Item>
         <span className='number'>04.</span>
