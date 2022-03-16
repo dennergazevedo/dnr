@@ -2,14 +2,14 @@ import React from 'react';
 import { Container, Title, Date, DescribeContainer } from '../Common/styles';
 import { BiRightArrow } from 'react-icons/bi';
 
-const CodeBy: React.FC= () => {
+const HeringSr: React.FC= () => {
   return (
     <Container animate={{ translateY: 8, opacity: 1 }} transition={{duration: 0.1}}>
       <Title>
-        Dev Lead Pleno 
-        <a href="https://www.codeby.com.br/" target="_blank" rel="noreferrer">@CodeBy</a>
+        Fullstack Developer Senior
+        <a href="https://www.ciahering.com.br/" target="_blank" rel="noreferrer">@HeringSr</a>
       </Title>
-      <Date>Jul 2021 - Jan 2022</Date>
+      <Date>Jan 2022 - Atual</Date>
       <DescribeContainer>
         <div>
           <BiRightArrow className="icon" size={10} />
@@ -38,4 +38,4 @@ const CodeBy: React.FC= () => {
   );
 }
 
-export default CodeBy;
+export default HeringSr;

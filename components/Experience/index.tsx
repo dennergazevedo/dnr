@@ -6,13 +6,15 @@ import CodeByPl from './CodeByPl';
 import CodeByLead from './CodeByLead';
 import ArtCopias from './ArtCopias';
 import ArtCopiasDesign from './ArtCopiasDesign';
+import HeringSr from './HeringSr';
 import Image from 'next/image';
 import code from './icons/code.jpeg';
+import hering from './icons/hering.png';
 import art from './icons/artcopias.png';
 
 const Experience: React.FC = () => {
 
-  const [menu, setMenu] = useState<number>(1);
+  const [menu, setMenu] = useState<number>(0);
 
   const toggle = (value: number) => setMenu(value)
 
@@ -25,6 +27,12 @@ const Experience: React.FC = () => {
       </TitleContainer>
       <TabContainer>
         <Left>
+          <Tab menu={menu === 0 && true} onClick={() => toggle(0)}>
+            <div className="tab-icon-container">
+              <Image width="42px" height="42px" className="tab-icon" src={hering} alt="hering-logo"/>
+            </div>
+            <span className="tab-name">FullStack Senior</span>
+          </Tab>    
           <Tab menu={menu === 1 && true} onClick={() => toggle(1)}>
             <div className="tab-icon-container">
               <Image width="42px" height="42px" className="tab-icon" src={code} alt="codeby-logo"/>
@@ -57,6 +65,7 @@ const Experience: React.FC = () => {
           </Tab>
         </Left>
         <Right>
+          { menu === 0 && <HeringSr/> }
           { menu === 1 && <CodeByLead/> }
           { menu === 2 && <CodeByPl /> }
           { menu === 3 && <CodeByJr /> }
