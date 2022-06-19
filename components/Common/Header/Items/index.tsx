@@ -18,7 +18,7 @@ const Items: React.FC = () => {
       </Item>
       <Item>
         <span className='number'>04.</span>
-        <a href="#">Contato</a>
+        <a href="#contact">Contato</a>
       </Item>
     </>
   );
