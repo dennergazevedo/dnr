@@ -51,7 +51,7 @@ export const TechContainer = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  max-height: 130px;
+  max-height: 160px;
 
   @media (min-width: 1024px){
     max-height: 148px;
