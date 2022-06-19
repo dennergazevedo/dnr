@@ -15,6 +15,7 @@ const Main: React.FC = () => {
   const [device, setDevide] = useState<IDevice>('desktop' as IDevice);
 
   useEffect(() => {
+    updateWindowDimensions();
     window.addEventListener('resize', updateWindowDimensions)
   }, [])
 
