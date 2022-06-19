@@ -12,7 +12,7 @@ import Experience from '../Experience';
 import Technology from '../Technology';
 
 const Main: React.FC = () => {
-  const [device, setDevide] = useState<IDevice>('desktop' as IDevice);
+  const [device, setDevide] = useState<IDevice>('mobile' as IDevice);
 
   useEffect(() => {
     updateWindowDimensions();
