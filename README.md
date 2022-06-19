@@ -3,7 +3,7 @@
 
 <h1  align="center">Hey you 👋, I'm Denner Azevedo.</h1>
 
-- 🚣🏻 I’m currently focus on studying **ReactJS**, **ReactNative** and **NodeJs**.
+- 🚣🏻 I’m currently focus on studying **ReactJS**, **ReactNative**, **NodeJs** and **Python**.
 
   
 
