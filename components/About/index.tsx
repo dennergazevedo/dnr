@@ -19,14 +19,19 @@ const Resume: React.FC = () => {
           <p>
             Olá! Meu nome é Denner Azevedo e me divirto criando coisas para internet.
             Meu interesse pelo desenvolvimento começou em 2015 quando comecei a construir alguns 
-            algoritmos em C e Java para tarefas da faculdade. Mas me encontrei realmente no 
+            algoritmos em C e Java na faculdade. Mas me encontrei realmente no 
             desenvolvimento web em 2018 quando me ofereci para desenvolver o e-commerce e sistemas 
             de vendas de uma gráfica — onde eu trabalhava de Designer Gráfico.
           </p>
           <p>
-            Avançando até hoje, tive o privilégio de trabalhar em uma start-up voltada para e-commerces. 
-            Parte do meu trabalho é construir soluções para e-commerces - às vezes construir o site do zero. 
-            Também sou Dev Lead em um squad onde ajudo na distribuição de tarefas e entender a dor de cada parceiro.
+            Buscando crescimento tive o privilégio de trabalhar em uma start-up voltada para e-commerces. 
+            Parte do meu trabalho era construir soluções para e-commerces. 
+            Tive também o privilégio de ser Tech Lead em duas empresas diferentes onde pude agregar com 
+            todo conhecimento que consegui adquirir durante esses anos.
+          </p>
+          <p>
+            Atualmente tenho me encontrado mais no desenvolvimento Backend onde minha experiência é com NodeJS mas 
+            tenho me aventurado no Python para desenvolvimento Web com o Django.
           </p>
           <p>
             Aqui estão algumas tecnologias que estou trabalhando atualmente:
@@ -56,6 +61,14 @@ const Resume: React.FC = () => {
           <Tech>
             <BiRightArrow className="tech-icon" size={10} />
             <span>NodeJS</span>
+          </Tech>
+          <Tech>
+            <BiRightArrow className="tech-icon" size={10} />
+            <span>Python</span>
+          </Tech>
+          <Tech>
+            <BiRightArrow className="tech-icon" size={10} />
+            <span>Django Rest</span>
           </Tech>
           <Tech>
             <BiRightArrow className="tech-icon" size={10} />

@@ -3,6 +3,7 @@ import Header from '../Common/Header';
 import Footer from '../Common/Footer'
 import Resume from '../Resume';
 import About from '../About';
+import Form from '../Form';
 import { Container  } from './styles';
 import { IDevice } from './types';
 import ScrollArrow from '../Common/ScrollArrow';
@@ -33,8 +34,8 @@ const Main: React.FC = () => {
       <About />
       <ScrollArrow ancora="experience"/>
       <Experience />
-      <ScrollArrow ancora="technology"/>
-      <Technology />
+      <ScrollArrow ancora="contact"/>
+      <Form />
       { device === 'desktop' && <Footer/> }
     </Container>
   );

@@ -26,7 +26,14 @@ export const TabContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 32px;
+
+  .experienceContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 
   @media (min-width: 1024px){
     justify-content: space-between;
@@ -100,10 +107,11 @@ export const Right = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   height: auto;
-  max-width: 90vw;
+  width: 100%;
 
   @media (min-width: 1024px){
     width: auto;
-    height: 400px;
+    max-width: 40vw;
+    height: 100%;
   }
 `;

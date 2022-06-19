@@ -7,11 +7,16 @@ export const Container = styled.header`
   align-items: flex-start;
   font-family: Ubuntu;
   color: #ddd;
-  min-height: 80vh;
+	width: 300px;
+	height: 300px;
   margin: 0 auto;
   cursor: default;
   padding: 20px;
 	position: relative;
+
+	@media (min-width: 1024px){
+		margin-right: 32px;
+	}
 
 .slider {
 	position: absolute;
@@ -44,7 +49,7 @@ export const Container = styled.header`
 			display: block;
 			width: inherit;
 			height: inherit;
-			background: url('https://cdn.dribbble.com/users/5031/screenshots/7008431/dribbble.png');
+			background: url('/images/TypeScript.png');
 			position: absolute;
 			-webkit-transform-style: preserve-3d;
 			        transform-style: preserve-3d;
@@ -59,14 +64,16 @@ export const Container = styled.header`
 
 			.slide.x:after {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/730703/screenshots/6988911/elenidebo-thisiscolossal-theroad-forchicagodesignmuseum.jpg');
+				background-color: #FFF;
+				background-image: url('/images/Python.png');
 				-webkit-transform: translateZ(100px) rotateZ(-90deg);
 				        transform: translateZ(100px) rotateZ(-90deg);
 			}
 
 			.slide.x:before {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/329207/screenshots/6220354/bemocs_geneseo_sailing.jpg');
+				background-color: #FFF;
+				background-image: url('/images/Java.png');
 				-webkit-transform: translateZ(-100px) rotateZ(-90deg);
 				        transform: translateZ(-100px) rotateZ(-90deg);
 			}
@@ -78,14 +85,16 @@ export const Container = styled.header`
 
 			.slide.y:after {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/63407/screenshots/5705689/dribbble_moonlight_2x.png');
+				background-color: #FFF;
+				background-image: url('/images/NodeJS.png');
 				-webkit-transform: translateZ(100px) scale(-1);
 				        transform: translateZ(100px) scale(-1);
 			}
 
 			.slide.y:before {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/1355613/screenshots/6441984/landscape_2x.jpg');
+				background-color: #FFF;
+				background-image: url('/images/React.png');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}
@@ -97,14 +106,16 @@ export const Container = styled.header`
 
 			.slide.z:after {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/3178178/screenshots/7013817/the_caravan_by_patryk_wojciechowicz_2x.png');
+				background-color: #FFF;
+				background-image: url('/images/TypeScript.png');
 				-webkit-transform: translateZ(100px);
 				        transform: translateZ(100px);
 			}
 
 			.slide.z:before {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/1361661/screenshots/6673317/music_girl.png');
+				background-color: #FFF;
+				background-image: url('/images/Python.png');
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}

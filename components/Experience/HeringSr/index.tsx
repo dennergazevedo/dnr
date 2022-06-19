@@ -16,7 +16,7 @@ const HeringSr: React.FC= () => {
           <span>
             Desenvolvimento e manutenção de componentes para projetos de e-commerces 
             usando como ferramenta o ReactJS, NodeJS, Typescript, HTML5 e CSS3 para construção 
-            na plataforma VTEX CMS e VTEX IO.
+            na plataforma VTEX IO.
           </span>
         </div>
         <div>
@@ -29,8 +29,7 @@ const HeringSr: React.FC= () => {
         <div>
           <BiRightArrow className="icon" size={10} />
           <span>
-            Responsável pela gestão de pessoas e projetos, responsável por coordenar equipes, organizar atividades e 
-            alinhamento de expectativas com os parceiros e com o time de Desenvolvedores.
+            Líder técnico de projetos e busca/criação de soluções para melhoria de performance na plataforma e-commerce.
           </span>
         </div>
       </DescribeContainer>
