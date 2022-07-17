@@ -9,7 +9,6 @@ import { IDevice } from './types';
 import ScrollArrow from '../Common/ScrollArrow';
 import AnimatedBackground from '../Common/AnimatedBackground';
 import Experience from '../Experience';
-import Technology from '../Technology';
 
 const Main: React.FC = () => {
   const [device, setDevide] = useState<IDevice>('mobile' as IDevice);
